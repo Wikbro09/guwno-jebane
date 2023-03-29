@@ -22,7 +22,7 @@ async function lastInnVerktøy() {
     for (i=0;i<cJson.verktøy.length;i++)
     {
         gel("mid").innerHTML += "<a href='"+cJson.verktøy[i].directory+"'>"+cJson.verktøy[i].namn+" V"+cJson.verktøy[i].versjon+"</a>";
-        if (i ==  -1 + x*3)
+        if (i ==  -1 + x*2)
         {
             x++;
             gel("mid").innerHTML += "<br><br>";

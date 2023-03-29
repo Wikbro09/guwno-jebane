@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>ToIT AS Bruktbutikk</title>
+        <link rel="stylesheet" href="stil.css">
+        <script>
+            var ver = Math.random();
+        </script>
+        <script src="script.js?+ver"></script>
+    </head>
+    <body>
+        <noscript>Nettleseren din kan ikkje kjøre scriptar, så denne nettside gjer ingenting. Vær så snill og bruk ein nyare nettleser.</noscript>
+        <div class="flexA">
+            <div>
+                <h1>ToIT AS Bruktbutikk</h1><a href="../meny/index.html">Tilbake til meny</a>
+                <p>Her selger vi i ToIT vårt IKT-utstyr som vi har erstattet. All utstyret har blitt testa og fungerer. <sup>Sjekk konsoll for "logg"</sup></p>
+                <p id="greeting">e</p>
+            </div>
+            <div class="buttons">
+                <button id="newcustomer">NY KUNDE</button>
+                <button id="resetchoice">RESET VALG</button>
+            </div>
+        </div>
+        <div class="itemlist">
+            <div id='e'>
+                <h3>Laptop</h3>
+                <p></p>
+                <input id='laptopCount' type='number' placeholder='Antall bestillt:'>
+            </div>
+            <div class="PC">
+                <h3>Stasjonær PC</h3>
+                <p id="PCPrice"></p>
+                <input id="PCCount" type="number" placeholder="Antall bestillt:">
+            </div>
+            <div class="skjerm">
+                <h3>HD-Skjerm</h3>
+                <p id="screenPrice"></p>
+                <input id="screenCount" type="number" placeholder="Antall bestillt:">
+            </div>
+            <div class="inputs">
+                <h3>Tastatur og mus</h3>
+                <p id="inputsPrice"></p>
+                <input id="inputsCount" type="number" placeholder="Antall bestillt:">
+            </div>
+        </div>
+        <div id="bottom">
+            <p id="totalPris"></p>
+            <p id="totalAntal"></p>
+            <button id="buy">BESTILL VALGT</button>
+            <p id="buyerror"></p>
+        </div>
+    </body>
+</html>

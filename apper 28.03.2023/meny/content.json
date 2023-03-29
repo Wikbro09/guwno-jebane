@@ -1,0 +1,12 @@
+{
+    "verktøy":
+    [
+        {"namn":"Valutakalkulator", "directory":"../valutakalkulator/index.html", "versjon":"1"},
+        {"namn":"Valutakalkulator", "directory":"../valutakalkulator2/index.html", "versjon":"2"},
+        {"namn":"Bruktbutikk", "directory":"../bruktbutikk/index.html", "versjon":"1"},
+        {"namn":"Bruktbutikk", "directory":"../bruktbutikk2/index.html", "versjon":"2"},
+        {"namn":"Temperaturkalkulator", "directory":"../temperaturkalkulator/index.html", "versjon":"1"},
+        {"namn":"Ordliste", "directory":"../ordliste/index.html", "versjon":"1"},
+        {"namn":"Soundify", "directory":"../soundify/index.html", "versjon":"0.1"}
+    ]
+}

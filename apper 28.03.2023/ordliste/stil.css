@@ -1,0 +1,30 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+h2 {
+    margin-top: 0px;
+}
+button {
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+button:hover {
+    border-color: white;
+}
+input {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.språkboksar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.språkboks {
+    margin-right: 20px;
+    border: solid 2px white;
+    padding: 5px;
+}

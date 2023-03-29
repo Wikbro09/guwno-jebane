@@ -1,0 +1,17 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+a {
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-right: 5px;
+}
+a:hover {
+    border-color: blueviolet;
+}

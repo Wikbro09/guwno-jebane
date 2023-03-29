@@ -1,0 +1,19 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+input {
+    color: black;
+}
+.wraprow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tempdiv {
+    margin-right: 20px;
+    border: solid 2px white;
+    padding: 5px;
+}

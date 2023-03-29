@@ -1,0 +1,67 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+h2 {
+    margin-top: 0px;
+}
+button {
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+button:hover {
+    border-color: white;
+}
+input {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label {
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+}
+img {
+    height: 150px;
+    width: 200px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    font-size: 12px;
+}
+
+#sangcoverdiv {
+    margin-right: 20px;
+}
+
+.playlister {
+    display: flex;
+    flex-direction: row;
+}
+.playlisteNo {
+    display: flex;
+    flex-direction: row;
+}
+.playliste:hover {
+    color: rgb(200, 200, 200);
+}
+div.sticky {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+.midCCbox {
+    text-align: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.coverNO {
+    border: 1px solid white;
+}

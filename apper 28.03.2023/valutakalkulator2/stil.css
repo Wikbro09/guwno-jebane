@@ -1,0 +1,39 @@
+* {
+    color: white;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+input {
+    color: black;
+}
+button{
+    background-color: rgb(66, 66, 66);
+}
+button:hover {
+    border-color: white;
+}
+
+h3 {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+b {
+    font-size: 20px;
+}
+#mid {
+    display: flex;
+    flex-direction: row;
+}
+.midcontent {
+    border: 2px solid white;
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
+}

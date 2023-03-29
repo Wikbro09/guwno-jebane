@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Soundify</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="top">
+            <h1>Soundify</h1>
+            <p>Wiktors musikkavspiller</p>
+            <div id="tilbakeknappar">
+                <a href="../meny/index.html">Tilbake til meny</a>
+                <button id="gjømPlaylisteInnhald">Gjøm listeinnhald</button>
+            </div>
+            <div class="sticky">
+                <div id="sangcoverdiv">
+                    <img class="coverNO" id="coverNO">
+                </div>
+                <div id="musikkinfo">
+                    <div>
+                        <b id="sangtittel">Tittel</b><br>
+                        <i id="artistdisplay">Artist</i><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="loop1"><label>Loop playliste</label>
+                        <input type="checkbox" id="loop2"><label>Start neste automatisk</label>
+                    </div>
+                    <div id="lydspiller">
+                        <audio id="spillerno" controls autoplay>
+                            <source type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><hr class="hr">
+        <div class="mid">
+            <h3 id="midContentLabel">Playlister</h3>
+            <div id="playlister" class="playlister">
+                <div class="midCCbox">
+                    <button id="playliste1">
+                        <img src="playlists/covers/cover_1.jfif">
+                        <br><b id="listetittel1">Playliste 1</b>
+                    </button>
+                </div>
+                <div class="midCCbox">
+                    <button id="playliste2">
+                        <img src="playlists/covers/cover_2.jpg">
+                        <br><b id="listetittel2">Playliste 2</b>
+                    </button>
+                </div>
+            </div><br>
+            <div id="playlisteNo" class="playlisteNo">
+
+            </div>
+        </div>       
+    </body>
+</html>

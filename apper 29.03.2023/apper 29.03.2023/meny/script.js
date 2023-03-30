@@ -21,7 +21,7 @@ async function lastInnVerktøy() {
     var x = 1;
     for (i=0;i<cJson.verktøy.length;i++)
     {
-        gel("mid").innerHTML += "<a href='"+cJson.verktøy[i].directory+"'>"+cJson.verktøy[i].namn+" V"+cJson.verktøy[i].versjon+"</a>";
+        gel("mid").innerHTML += "<button onclick= location.href='"+cJson.verktøy[i].directory+"'>"+cJson.verktøy[i].namn+" V"+cJson.verktøy[i].versjon+"</button>";
         if (i ==  -1 + x*2)
         {
             x++;

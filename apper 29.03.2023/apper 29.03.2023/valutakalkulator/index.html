@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="utf-8">
+        <title>Valutakalkulator</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            var ver = Math.random();
+        </script>
+        <script src="script.js?+ver"></script>
+    </head>
+    <body>
+        <h1>Valutaomregningsprogram</h1><a href="../meny/index.html">Tilbake til meny</a>
+        <p>Dette verktøyet kan konvertere antall kr. til $, £ og €.</p>
+
+        <button id="convert">Konverter</button>
+        <input id="nok" type="number" placeholder="Antall kr"><br><br>
+        <button id="update">Oppdater vekslingskurs</button>
+
+        <div>
+            <p>USD</p><p class="kurs" id="kursUsd"></p><br><input id="usd" value="" type="number"><button id="conUSD">Konverter til NOK</button>
+            <p>ENP</p><p class="kurs" id="kursEnp"></p><br><input id="enp" value="" type="number"><button id="conENP">Konverter til NOK</button>
+            <p>EUR</p><p class="kurs" id="kursEur"></p><br><input id="eur" value="" type="number"><button id="conEUR">Konverter til NOK</button>
+        </div>
+    </body>
+</html>

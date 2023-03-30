@@ -1,0 +1,6 @@
+{"varer":[
+    {"varenamn":"Laptop", "pris":1900, "forkortelse":"lap"},
+    {"varenamn":"Stasjonær PC", "pris":1500, "forkortelse":"spc"},
+    {"varenamn":"Skjerm", "pris":600, "forkortelse":"skj"},
+    {"varenamn":"Tastatur og mus", "pris":150, "forkortelse":"tom"}
+]}

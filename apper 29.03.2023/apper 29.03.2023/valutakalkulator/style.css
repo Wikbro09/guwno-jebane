@@ -1,0 +1,26 @@
+* {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(33, 33, 33);
+}
+input {
+    color: black;
+}
+button{
+    background-color: rgb(66, 66, 66);
+}
+button:hover {
+    border-color: white;
+}
+.conResult {
+    color: red;
+}
+.kurs {
+    font-size: 10px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}

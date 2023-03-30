@@ -1,0 +1,9 @@
+{
+    "valutaer":
+    [
+        {"forkortelse":"USD", "symbol":"$", "enNokErlik":8},
+        {"forkortelse":"EUR", "symbol":"€", "enNokErlik":10},
+        {"forkortelse":"GBP", "symbol":"£", "enNokErlik":12},
+        {"forkortelse":"PLN", "symbol":"zł", "enNokErlik":2.5}
+    ]
+}

@@ -10,6 +10,7 @@ body {
 button {
     background-color: rgb(50, 50, 50);
     width: 35%;
+    height: 30px;
     border-style: solid;
     border-color: white;
     border-width: 2px;
